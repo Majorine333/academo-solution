@@ -1,0 +1,35 @@
+
+h1 {
+	text-align: center;
+	color: blue;
+	font-family: inherit, arial, times;
+}
+
+body {
+	background-color: rgb(93, 183, 222);
+}
+
+.container {
+	position: relative;
+	font-family: helvetca;
+	color: #5DB7DE;
+	text-shadow: 2px 2px 2px 2px #000000;
+	font-size: 5.5rem;
+	text-align: center;
+	widith: 50%;
+	height: 50%;
+	background-size:50% ;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50% );
+
+}
+
+footer {
+	text-align: right;
+	color: red;
+}
